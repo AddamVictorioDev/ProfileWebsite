@@ -1,0 +1,34 @@
+.center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.photo-grid {
+    display: flex;
+    margin-top: 10%;
+    border-color: black;
+    border: 10;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .photo-item {
+    height: 100%;
+    width: 200px;
+    border-color: black;
+    border: 10;
+
+  
+  
+    overflow: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

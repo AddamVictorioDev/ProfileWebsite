@@ -1,0 +1,16 @@
+.addam {
+    display: flex;
+    flex-direction: column;
+   
+
+    margin: 0;
+  
+}
+
+h1{
+    flex: 1;
+    height: auto;
+    height: 59vh;
+    width: 80%;
+   
+}

@@ -1,0 +1,15 @@
+.addam {
+    display: flex;
+    flex-direction: column;
+   
+
+    margin: 0;
+  
+}
+.name{
+    flex: 1;
+}
+h1{
+    font-size: 80vh;
+   
+}

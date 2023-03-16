@@ -1,0 +1,92 @@
+/* Grid Layout */
+.home-page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Typography */
+.home-page h1 {
+    font-size: 36px;
+    font-weight: 700;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-page p {
+    font-size: 18px;
+    line-height: 1.5;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Color */
+.home-page {
+    background-color: #f5f5f5;
+}
+
+.home-page h1 {
+    color: #333;
+}
+
+.home-page a {
+    color: #ff5722;
+}
+
+/* Images and Videos */
+.home-page .featured-image {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Animation */
+.home-page .featured-product {
+    animation: fade-in 1s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Whitespace */
+.home-page {
+    margin: 0 auto
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+header nav a:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    grid-column: 1 / -1;
+}
