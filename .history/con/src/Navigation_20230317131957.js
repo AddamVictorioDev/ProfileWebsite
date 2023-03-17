@@ -8,9 +8,8 @@ function SocialBar(){
 
     return(
         <div className="react-icons">
-                    <AiFillLinkedin/>
         <AiFillGithub />
-
+        <AiFillLinkedin/>
     
         </div>
 
