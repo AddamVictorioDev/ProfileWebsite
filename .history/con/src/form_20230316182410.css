@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    background-color: aquamarine;
+}
+form{
+    justify-content: center;
+    align-items:center;
+}

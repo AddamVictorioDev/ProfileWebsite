@@ -1,0 +1,32 @@
+
+.container{
+    justify-content: center;
+    align-items:center;
+    background-color: aquamarine;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+    height: 600px;
+
+}
+
+    
+
+
+input[type=text] {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 10px;
+  }
+  textarea {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }

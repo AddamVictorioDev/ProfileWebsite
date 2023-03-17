@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height:100vh;
+
+}
+.container{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    background-color: blue;
+    
+
+}
+
+    
+form{
+    background-color: aqua;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+border-color: black;
+    box-sizing: border-box;
+  }
+  textarea{
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 2px;
+  }

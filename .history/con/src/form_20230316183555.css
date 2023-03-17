@@ -1,0 +1,18 @@
+
+.container{
+    justify-content: center;
+    align-items:center;
+    background-color: aquamarine;
+}
+
+.center{
+    display: grid;
+
+}
+form{
+    justify-self: center;
+    align-self: center
+}
+    
+
+

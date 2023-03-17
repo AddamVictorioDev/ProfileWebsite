@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height:100vh;
+
+}
+.container{
+
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.center{
+    display: grid;
+    place-items: center;
+ width: 100vw;
+ height: 100vh;
+    background-color: blue;
+    
+    
+
+}
+
+    
+form{
+  
+    flex-direction: column;
+    background-color: aqua;
+    width: 80%;
+    padding: 80px;
+    justify-content: space-between;
+
+}
+
+input[type=text] {
+    width: 100%;
+
+    padding: 15px;
+    margin: 8px 0;
+border-color: black;
+    box-sizing: border-box;
+  }
+  textarea{
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
