@@ -6,19 +6,7 @@ import Icon1 from './aUnknown.png';
 import { Link } from "react-router-dom";
 import ReusableButton from './ReuseableButton';
 import { AiFillGithub } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
-import { SiReplit } from "react-icons/si";
-function SocialBar(){
 
-    return(
-        <div className="react-icons">
-        <AiFillGithub />
-        <AiFillLinkedin/>
-    
-        </div>
-
-    );
-}
 function Navagation() {
   
     const [style,setStyle] = useState("cont")
@@ -43,7 +31,6 @@ function Navagation() {
         <header> <Link to="/">Addam.</Link></header>
 
         <div className='bar'>
-
            <nav>
             
         
@@ -51,10 +38,10 @@ function Navagation() {
                           
                           <a href="/form">Contact</a>
                       </nav>
-                    
-               
+                      <div className="react-icons">
+<AiFillGithub />
+</div>
                       </div>
-                      <SocialBar/>
                       </>);
   }
   export default Navagation;

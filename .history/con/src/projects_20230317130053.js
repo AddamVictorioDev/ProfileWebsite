@@ -56,7 +56,9 @@ return (
       <>
 
 
-
+<div className="react-icons">
+<AiFillGithub />
+</div>
          <Navigation/>
      <div className="photo-grid">
         
@@ -76,10 +78,7 @@ return (
         // height: "300px" }} /> 
         //           </div>
               ))}
-          </div>
-          <div className="react-icons">
-<AiFillGithub />
-</div></>
+          </div></>
 
   );
 }

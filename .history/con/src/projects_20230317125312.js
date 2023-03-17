@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from "react";
 import data from './images.json';
 import useScript from "./usescripts";
-import { AiFillGithub } from 'react-icons/ai';
-import { IconContext } from "react-icons";
+import { AiFillGithub } from 'react-icons/fa';
 
 import "./projects.css";
 import Navigation from "./Navigation";
@@ -56,7 +55,9 @@ return (
       <>
 
 
+      
 
+<AiFillGithub />
          <Navigation/>
      <div className="photo-grid">
         
@@ -76,10 +77,7 @@ return (
         // height: "300px" }} /> 
         //           </div>
               ))}
-          </div>
-          <div className="react-icons">
-<AiFillGithub />
-</div></>
+          </div></>
 
   );
 }

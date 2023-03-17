@@ -7,14 +7,12 @@ import { Link } from "react-router-dom";
 import ReusableButton from './ReuseableButton';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { SiReplit } from "react-icons/si";
 function SocialBar(){
 
     return(
         <div className="react-icons">
         <AiFillGithub />
         <AiFillLinkedin/>
-    
         </div>
 
     );
@@ -51,10 +49,9 @@ function Navagation() {
                           
                           <a href="/form">Contact</a>
                       </nav>
-                    
+                      {/* <SocialBar/> */}
                
                       </div>
-                      <SocialBar/>
                       </>);
   }
   export default Navagation;

@@ -7,9 +7,7 @@
 }
 .react-icons {
   vertical-align: middle;
-  font-size: 60px;
-  
-
+  size: 20;
 }
 .photo-grid {
     display: flex;

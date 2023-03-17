@@ -14,7 +14,6 @@ function SocialBar(){
         <div className="react-icons">
         <AiFillGithub />
         <AiFillLinkedin/>
-    
         </div>
 
     );
