@@ -1,0 +1,19 @@
+
+link .react-icons svg{
+    stroke: #000000;
+    color: rgb(255, 255, 255);
+    stroke-width: 35px;
+    margin: .3vw;
+    vertical-align: middle;
+    font-size: 7vh;
+  
+}
+.react-icons svg:hover {
+
+    color: #ff5722;
+
+   stroke: #595959;
+
+
+  
+}
